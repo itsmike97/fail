@@ -1,0 +1,158 @@
+/* Starter CSS */
+
+* {
+    box-sizing: border-box; /* because it’s 2019, jen simmons */
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+body {
+
+    }
+    
+img {
+    display: block;
+    max-width: 100%;
+        
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+li {
+    display: inline-block;
+    float:left;
+    border-right: 1px solid white;
+}
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.active {
+    background-color: darkgrey;
+    color: white;
+}
+
+a {
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.cards h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}    
+.card-one {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 0px;
+  min-width: 250px;
+  max-width: 30%;
+  border-radius: 0.5 rem;
+  border: 1px solid gray;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  text-align: center;
+}
+.card-one:hover {
+  transition: all 0.1s ease-in;
+  top: -35px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.card-two {
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 0px;
+  min-width: 250px;
+  max-width: 30%;
+  border-radius: 0.5 rem;
+  border: 1px solid gray;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  text-align: center;
+}
+.card-two:hover {
+  transition: all 0.1s ease-in;
+  top: -35px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.card-three {
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 0px;
+  min-width: 250px;
+  max-width: 29.5%;
+  border-radius: 0.5 rem;
+  border: 1px solid gray;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  text-align: center;
+}
+.card-three:hover {
+  transition: all 0.1s ease-in;
+  top: -35px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+    /* This is the CSS markup for commenting */
+    
+    /* A one-line comment */
+    
+    /*
+    A comment
+    which stretches
+    over several
+    lines
+    */
+    
+    /* The comment below is used to
+       disable specific styling */
+    
+    /*
+    span {
+      color: blue;
+      font-size: 1.5em;
+    }
+    */
+    /* highlight the item and use Command + slash to comment something out. */

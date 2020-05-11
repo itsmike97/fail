@@ -1,0 +1,145 @@
+/* Starter CSS */
+
+* {
+    box-sizing: border-box; /* because it’s 2019, jen simmons */
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background-image: url(images/bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    img {
+    display: block;
+    width: 100%;
+        
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    float:left;
+    border-right: 1px solid white;
+}
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.active {
+    background-color: darkgrey;
+    color: white;
+}
+
+a {
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color:black;
+}
+
+button a:hover {
+    background-color: lightgrey;
+    border-radius: .5rem;
+}
+
+nav {
+    color:pink;
+    margin:auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;
+  grid-template-rows: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;;
+  height: 100vh;
+  align-content: center
+}
+
+.inner-hero {
+  background: rgba(156, 156, 156, .3);
+  padding: 3rem;
+  border-radius: 2rem;
+  grid-column-start:third;
+  grid-row-start: second;
+  grid-row-end: fourth;
+  align-content: center;
+  text-align: center;
+}
+
+.inner-hero > h1 {
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.inner-hero > p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 5rem
+}
+
+.inner-hero > button {
+  font-size: 2rem;
+  border-radius: .5rem;
+}
+
+.backround-image {
+    
+}
+    
+    
+    
+    /* This is the CSS markup for commenting */
+    
+    /* A one-line comment */
+    
+    /*
+    A comment
+    which stretches
+    over several
+    lines
+    */
+    
+    /* The comment below is used to
+       disable specific styling */
+    
+    /*
+    span {
+      color: blue;
+      font-size: 1.5em;
+    }
+    */
+    /* highlight the item and use Command + slash to comment something out. */
